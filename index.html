@@ -5,19 +5,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="css/style.css" />
-
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-
-    <title>Admin Dashboard Panel</title>
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font.css">
+    <title> Dashboard | Admin Panel</title>
 </head>
 
 <body>
     <nav>
         <div class="logo-name">
             <div class="logo-image">
-                <img src="images/logo.png" alt="" />
+                <img src="images/favicon/android-chrome-96x96.png" alt="logo-icon" />
             </div>
             <span class="logo_name">CodingLab</span>
         </div>
@@ -86,126 +91,109 @@
 
     <section class="dashboard">
         <div class="top">
-            <i class="uil uil-bars sidebar-toggle"></i>
+            <img class="uil uil-bars sidebar-toggle" src="images/icons/icon-hamburger.svg" alt="icon" width="50px">
 
             <div class="search-box">
-                <i class="uil uil-search"></i>
+                <img src="images/icons/search.ico" alt="img" width="5px" height="35px">
                 <input type="text" placeholder="Search here..." />
             </div>
-
-            <img src="images/profile.jpg" alt="" />
+            <img src="images/icons/avatar.ico" alt="avatar" width="50px" />
         </div>
-
         <div class="dash-content">
             <div class="overview">
                 <div class="title">
-                    <i class="uil uil-tachometer-fast-alt"></i>
-                    <span class="text">Dashboard</span>
+                    <i class="uil uil-tachometer-fast-alt"></i> Dashboard
                 </div>
 
                 <div class="boxes">
-                    <div class="box box1">
-                        <i class="uil uil-thumbs-up"></i>
-                        <span class="text">Total Likes</span>
-                        <span class="number">50,120</span>
+                    <div class="boxes-text" style="background-color: #4DA3FF;">
+                        <div class="boxes-icon"><i class="uil uil-thumbs-up"></i> Total Likes</div>
+                        <div class="boxes-number">50,120</div>
                     </div>
-                    <div class="box box2">
-                        <i class="uil uil-comments"></i>
-                        <span class="text">Comments</span>
-                        <span class="number">20,120</span>
+                    <div class="boxes-text" style="background-color: #FFE6AC;">
+                        <div class="boxes-icon"><i class="uil uil-comments"></i> Comments</div>
+                        <div class="boxes-number">20,120</div>
                     </div>
-                    <div class="box box3">
-                        <i class="uil uil-share"></i>
-                        <span class="text">Total Share</span>
-                        <span class="number">10,120</span>
+                    <div class="boxes-text" style="background-color: #E7D1FC;">
+                        <div class="boxes-icon"><i class="uil uil-share"></i> Total Share</div>
+                        <div class="boxes-number">10,120</div>
                     </div>
                 </div>
             </div>
 
             <div class="activity">
                 <div class="title">
-                    <i class="uil uil-clock-three"></i>
-                    <span class="text">Recent Activity</span>
+                    <i class="uil uil-clock-three"></i> Recent Activity
                 </div>
 
-                <div class="activity-data">
-                    <div class="data checkboxes">
-                        <span class="data-title">
-                            <input type="checkbox" />
-                        </span>
-                        <span class="data-list">
-                            <input type="checkbox" />
-                        </span>
-                        <span class="data-list">
-                            <input type="checkbox" />
-                        </span>
-                        <span class="data-list">
-                            <input type="checkbox" />
-                        </span>
-                        <span class="data-list">
-                            <input type="checkbox" />
-                        </span>
-                        <span class="data-list">
-                            <input type="checkbox" />
-                        </span>
-                        <span class="data-list">
-                            <input type="checkbox" />
-                        </span>
-                        <span class="data-list">
-                            <input type="checkbox" />
-                        </span>
-                    </div>
-                    <div class="data names">
-                        <span class="data-title">Name</span>
-                        <span class="data-list">Prem Shahi</span>
-                        <span class="data-list">Deepa Chand</span>
-                        <span class="data-list">Manisha Chand</span>
-                        <span class="data-list">Pratima Shahi</span>
-                        <span class="data-list">Man Shahi</span>
-                        <span class="data-list">Ganesh Chand</span>
-                        <span class="data-list">Bikash Chand</span>
-                    </div>
-                    <div class="data email">
-                        <span class="data-title">Email</span>
-                        <span class="data-list">premshahi@gmail.com</span>
-                        <span class="data-list">deepachand@gmail.com</span>
-                        <span class="data-list">prakashhai@gmail.com</span>
-                        <span class="data-list">manishachand@gmail.com</span>
-                        <span class="data-list">pratimashhai@gmail.com</span>
-                        <span class="data-list">manshahi@gmail.com</span>
-                        <span class="data-list">ganeshchand@gmail.com</span>
-                    </div>
-                    <div class="data joined">
-                        <span class="data-title">Joined</span>
-                        <span class="data-list">2022-02-12</span>
-                        <span class="data-list">2022-02-12</span>
-                        <span class="data-list">2022-02-13</span>
-                        <span class="data-list">2022-02-13</span>
-                        <span class="data-list">2022-02-14</span>
-                        <span class="data-list">2022-02-14</span>
-                        <span class="data-list">2022-02-15</span>
-                    </div>
-                    <div class="data type">
-                        <span class="data-title">Type</span>
-                        <span class="data-list">New</span>
-                        <span class="data-list">Member</span>
-                        <span class="data-list">Member</span>
-                        <span class="data-list">New</span>
-                        <span class="data-list">Member</span>
-                        <span class="data-list">New</span>
-                        <span class="data-list">Member</span>
-                    </div>
-                    <div class="data status">
-                        <span class="data-title">Status</span>
-                        <span class="data-list">Liked</span>
-                        <span class="data-list">Liked</span>
-                        <span class="data-list">Liked</span>
-                        <span class="data-list">Liked</span>
-                        <span class="data-list">Liked</span>
-                        <span class="data-list">Liked</span>
-                        <span class="data-list">Liked</span>
-                    </div>
-                </div>
+                <table class="activity-data">
+                    <tbody>
+                        <tr class="head-tr">
+                            <td><input class="checkbox" type="checkbox" /></td>
+                            <td>Name</td>
+                            <td>Email</td>
+                            <td>Joined</td>
+                            <td>Type</td>
+                            <td>Status</td>
+                        </tr>
+                        <tr>
+                            <td><input class="checkbox" type="checkbox" /></td>
+                            <td>Prem Shahi</td>
+                            <td>premshahi@gmail.com</td>
+                            <td>2022-02-12</td>
+                            <td>New</td>
+                            <td>Liked</td>
+                        </tr>
+                        <tr>
+                            <td><input class="checkbox" type="checkbox" /></td>
+                            <td>Deepa Chand</td>
+                            <td>deepachand@gmail.com</td>
+                            <td>2022-02-12</td>
+                            <td>Member</td>
+                            <td>Liked</td>
+                        </tr>
+                        <tr>
+                            <td><input class="checkbox" type="checkbox" /></td>
+                            <td>Manisha Chand</td>
+                            <td>prakashhai@gmail.com</td>
+                            <td>2022-02-13</td>
+                            <td>Member</td>
+                            <td>Liked</td>
+                        </tr>
+                        <tr>
+                            <td><input class="checkbox" type="checkbox" /></td>
+                            <td>Pratima Shahi</td>
+                            <td>manishachand@gmail.com</td>
+                            <td>2022-02-13</td>
+                            <td>New</td>
+                            <td>Liked</td>
+                        </tr>
+                        <tr>
+                            <td><input class="checkbox" type="checkbox" /></td>
+                            <td>Man Shahi</td>
+                            <td>pratimashhai@gmail.com</td>
+                            <td>2022-02-14</td>
+                            <td>Member</td>
+                            <td>Liked</td>
+                        </tr>
+                        <tr>
+                            <td><input class="checkbox" type="checkbox" /></td>
+                            <td>Ganesh Chand</td>
+                            <td>manshahi@gmail.com</td>
+                            <td>2022-02-14</td>
+                            <td>New</td>
+                            <td>Liked</td>
+                        </tr>
+                        <tr>
+                            <td><input class="checkbox" type="checkbox" /></td>
+                            <td>Bikash Chand</td>
+                            <td>ganeshchand@gmail.com</td>
+                            <td>2022-02-15</td>
+                            <td>Member</td>
+                            <td>Liked</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
